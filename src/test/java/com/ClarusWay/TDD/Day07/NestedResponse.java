@@ -5,6 +5,7 @@ import com.ClarusWay.TDD.POJO.People;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.codehaus.groovy.runtime.callsite.PerInstancePojoMetaClassSite;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;

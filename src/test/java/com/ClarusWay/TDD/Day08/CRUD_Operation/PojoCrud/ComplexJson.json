@@ -1,0 +1,30 @@
+{
+  "name": "ensar",
+  "age": 3,
+  "email": "johndoe@example.com",
+  "address": {
+    "street": "ajdar street",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345"
+  },
+  "interests": [
+    "data1",
+    "data2"
+  ],
+  "isStudent": false,
+  "objectList": [
+    {
+      "item": "test worked",
+      "quantity": 2
+    },
+    {
+      "item": "item2",
+      "quantity": 3
+    },
+    {
+      "item": "item3",
+      "quantity": 232
+    }
+  ]
+}

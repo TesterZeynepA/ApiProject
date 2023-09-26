@@ -34,6 +34,22 @@ public class NestedListResponse {
       String secondNamePeople = secondPeople.getName();
         System.out.println("secondNamePeople = " + secondNamePeople);
 
+      String peopleLocation= myResponse.getPeople().get(2).getCity();
+        System.out.println("peopleLocation = " + peopleLocation);
+
+        String industry1= myResponse.getOrganisation().getIndustry();
+        System.out.println("industry1 = " + industry1);
+
+        int myAge = secondPeople.getAge();
+        System.out.println("myAge = " + myAge);
+
+        People myPeople= response.jsonPath().getObject("people[3]", People.class);
+        int age2 = myPeople.getAge();
+        System.out.println("age2 = " + age2);
+
+        String nameLast = myPeople.getName();
+        System.out.println("nameLast = " + nameLast);
+
         response.prettyPrint();
     }
 }
