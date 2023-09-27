@@ -126,6 +126,13 @@ public class Adequateshop {
     @Test
     public void jsonFileUpdate(){
 
+        updateJsonFile("id", 1,
+                "src/test/java/com/ClarusWay/TDD/Day8/Crud_Op/PojoCrud/MyUser.json");
+        updateJsonFile("interests[0]",
+                "dataClarus", "src/test/java/com/ClarusWay/TDD/Day8/Crud_Op/PojoCrud/ComplexJson.json");
+        updateJsonFile("objectList[0].item",
+                "clarusway working",
+                "src/test/java/com/ClarusWay/TDD/Day8/Crud_Op/PojoCrud/ComplexJson.json");
 
 
     }
@@ -145,6 +152,7 @@ public class Adequateshop {
             throw new RuntimeException(e);
 
     }
+
     }
 
 }
