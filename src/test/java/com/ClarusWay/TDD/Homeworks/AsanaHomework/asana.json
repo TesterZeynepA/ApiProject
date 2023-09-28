@@ -1,0 +1,54 @@
+{
+    "gid": "1205604762645089",
+    "resource_type": "project",
+    "created_at": "2023-09-28T14:10:52.722Z",
+    "modified_at": "2023-09-28T14:10:52.722Z",
+    "members": [
+      {
+        "gid": "1205562737331609",
+        "resource_type": "user",
+        "name": "larifid228@cdeter.com"
+      }
+    ],
+    "owner": {
+      "gid": "1205562737331609",
+      "resource_type": "user",
+      "name": "larifid228@cdeter.com"
+    },
+    "due_date": null,
+    "due_on": null,
+    "current_status_update": null,
+    "current_status": null,
+    "public": true,
+    "name": "azes",
+    "notes": "",
+    "archived": false,
+    "workspace": {
+      "gid": "1205592694558597",
+      "resource_type": "workspace",
+      "name": "Clarusway first workspace"
+    },
+    "team": {
+      "gid": "1205592694558599",
+      "resource_type": "team",
+      "name": "Clarusway first workspace"
+    },
+    "permalink_url": "https://app.asana.com/0/1205604762645089/1205604762645089",
+    "default_view": "list",
+    "default_access_level": "editor",
+    "minimum_access_level_for_customization": "editor",
+    "minimum_access_level_for_sharing": "editor",
+    "start_on": null,
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "color": "dark-green",
+    "followers": [
+      {
+        "gid": "1205562737331609",
+        "resource_type": "user",
+        "name": "larifid228@cdeter.com"
+      }
+    ],
+    "icon": "list"
+  }
