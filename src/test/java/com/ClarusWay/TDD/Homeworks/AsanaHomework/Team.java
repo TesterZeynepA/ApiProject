@@ -9,16 +9,16 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@JsonPropertyOrder({ "gid",
-"resource_type",
-"name"})
-public class Members {
-
+@JsonPropertyOrder({
+        "gid",
+        "resource_type",
+        "name"
+})
+public class Team {
     @JsonProperty
     private String gid;
     @JsonProperty
     private String resource_type;
     @JsonProperty
     private String name;
-
 }

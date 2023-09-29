@@ -1,19 +1,20 @@
 {
-    "gid": "1205604762645089",
+  "data": {
+    "gid": "1205615191012531",
     "resource_type": "project",
-    "created_at": "2023-09-28T14:10:52.722Z",
-    "modified_at": "2023-09-28T14:10:52.722Z",
+    "created_at": "2023-09-29T11:42:30.685Z",
+    "modified_at": "2023-09-29T11:42:30.685Z",
     "members": [
       {
         "gid": "1205562737331609",
         "resource_type": "user",
-        "name": "larifid228@cdeter.com"
+        "name": "Testerzzz"
       }
     ],
     "owner": {
       "gid": "1205562737331609",
       "resource_type": "user",
-      "name": "larifid228@cdeter.com"
+      "name": "Testerzzz"
     },
     "due_date": null,
     "due_on": null,
@@ -24,16 +25,16 @@
     "notes": "",
     "archived": false,
     "workspace": {
-      "gid": "1205592694558597",
+      "gid": "1205541665331966",
       "resource_type": "workspace",
-      "name": "Clarusway first workspace"
+      "name": "cdeter.com"
     },
     "team": {
-      "gid": "1205592694558599",
+      "gid": "1205601799046677",
       "resource_type": "team",
-      "name": "Clarusway first workspace"
+      "name": ",dlsdasdas.'s First Team"
     },
-    "permalink_url": "https://app.asana.com/0/1205604762645089/1205604762645089",
+    "permalink_url": "https://app.asana.com/0/1205615191012531/1205615191012531",
     "default_view": "list",
     "default_access_level": "editor",
     "minimum_access_level_for_customization": "editor",
@@ -47,8 +48,11 @@
       {
         "gid": "1205562737331609",
         "resource_type": "user",
-        "name": "larifid228@cdeter.com"
+        "name": "Testerzzz"
       }
     ],
+    "custom_field_settings": [],
+    "custom_fields": [],
     "icon": "list"
   }
+}
