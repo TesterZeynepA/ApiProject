@@ -18,13 +18,13 @@ public class BasicMatchers {
 
         Assert.assertEquals(3, 3);
 
-        assertThat(3, Matchers.is(3)); // Basit assertion yapma degelerin denkligini test ediyoruz.
+        assertThat(3, Matchers.is(3)); // Basit assertion yapma degerlerin denkligini test ediyoruz.
 
-        assertThat(3, equalTo(3)); // Basit assertion yapma degelerin denkligini test ediyoruz.
+        assertThat(3, equalTo(3)); // Basit assertion yapma degerlerin denkligini test ediyoruz.
 
-        assertThat(3, is(equalTo(3))); // Kombinasyon islemi yuklerda yaptigimiz assertionlarla ayni islemi yapiyor.
+        assertThat(3, is(equalTo(3))); // Kombinasyon islemi yukarda yaptigimiz assertionlarla ayni islemi yapiyor.
 
-        assertThat(5, not(0)); // Olmamasi gereken degerin assertion islemini gereceklestiriyoruz
+        assertThat(5, not(0)); // Olmamasi gereken degerin assertion islemini gerceklestiriyoruz
 
         assertThat(101, greaterThan(100)); // Beklenen degerin actual degerden buyuklugunu test ediyoruz.
 
